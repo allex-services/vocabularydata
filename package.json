@@ -1,0 +1,21 @@
+{
+  "name": "allex_vocabularyservice",
+  "version": "0.1.0",
+  "description": "VocabularyService",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "git@gitlab.hers.rs:allex_services/vocabulary"
+  },
+  "keywords": [
+    "ecosystem:allex",
+    "Service",
+    "Vocabulary"
+  ],
+  "author": "HERS Belgrade",
+  "license": "ISC"
+}
+
