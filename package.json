@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url" : "git@gitlab.hers.rs:allex_services/vocabulary"
+    "url" : "git@gitlab.hers.rs:allex_services/vocabularydata.git"
   },
   "keywords": [
     "ecosystem:allex",
