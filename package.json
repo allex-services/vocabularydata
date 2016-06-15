@@ -1,7 +1,7 @@
 {
-  "name": "allex_vocabularyservice",
+  "name": "allex_vocabularydataservice",
   "version": "0.1.0",
-  "description": "VocabularyService",
+  "description": "VocabularyDataService",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
