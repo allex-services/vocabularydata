@@ -1,1 +1,1 @@
-ALLEX.execSuite.registry.add('allex_vocabularyservice',require('./clientside')(ALLEX));
+ALLEX.execSuite.registry.add('allex_vocabularydataservice',require('./clientside')(ALLEX));
