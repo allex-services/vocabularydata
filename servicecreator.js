@@ -1,4 +1,4 @@
-function createVocabularyService(execlib, ParentServicePack) {
+function createVocabularyDataService(execlib, ParentServicePack) {
   'use strict';
   var ParentService = ParentServicePack.Service,
     dataSuite = execlib.dataSuite;
@@ -10,19 +10,19 @@ function createVocabularyService(execlib, ParentServicePack) {
     };
   }
 
-  function VocabularyService(prophash) {
+  function VocabularyDataService(prophash) {
     ParentService.call(this, prophash);
   }
   
-  ParentService.inherit(VocabularyService, factoryCreator, require('./storagedescriptor'));
+  ParentService.inherit(VocabularyDataService, factoryCreator, require('./storagedescriptor'));
   
-  VocabularyService.prototype.__cleanUp = function() {
+  VocabularyDataService.prototype.__cleanUp = function() {
     ParentService.prototype.__cleanUp.call(this);
   };
-  VocabularyService.prototype.createStorage = function(storagedescriptor) {
+  VocabularyDataService.prototype.createStorage = function(storagedescriptor) {
     return ParentService.prototype.createStorage.call(this, storagedescriptor);
   };
-  return VocabularyService;
+  return VocabularyDataService;
 }
 
-module.exports = createVocabularyService;
+module.exports = createVocabularyDataService;
