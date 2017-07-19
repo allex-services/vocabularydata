@@ -1,6 +1,6 @@
 {
   "name": "allex_vocabularydataservice",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "VocabularyDataService",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url" : "git@gitlab.hers.rs:allex_services/vocabularydata.git"
+    "url": "git@github.com:allex-services/vocabularydata.git"
   },
   "keywords": [
     "ecosystem:allex",
@@ -19,4 +19,3 @@
   "author": "HERS Belgrade",
   "license": "ISC"
 }
-
